@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "280467880474",
+    "firebase_url": "https://flavorfiesta-7ac17-default-rtdb.firebaseio.com",
+    "project_id": "flavorfiesta-7ac17",
+    "storage_bucket": "flavorfiesta-7ac17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280467880474:android:cef0cbefd8921720f86fa3",
+        "android_client_info": {
+          "package_name": "com.example.adminflavorfiesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280467880474-u8im14bcphj6b7hv08933gdgjtv6d1hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminflavorfiesta",
+            "certificate_hash": "e232d184e33992c6a73df8a2b4b1375fed855183"
+          }
+        },
+        {
+          "client_id": "280467880474-6ml47mc906c96o0gkepel23qhg55q57i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjhPIqYygvRAib3jZDk0qfsty61PGLvEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280467880474-6ml47mc906c96o0gkepel23qhg55q57i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280467880474:android:b875cdc0d79f2dd0f86fa3",
+        "android_client_info": {
+          "package_name": "com.example.flavorfiesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280467880474-6ml47mc906c96o0gkepel23qhg55q57i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjhPIqYygvRAib3jZDk0qfsty61PGLvEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280467880474-6ml47mc906c96o0gkepel23qhg55q57i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

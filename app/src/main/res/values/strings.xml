@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wine Emporium</string>
+    <string name="choose_location">Choose location</string>
+    <string name="default_web_client_id" translatable="false">280467880474-6ml47mc906c96o0gkepel23qhg55q57i.apps.googleusercontent.com</string>
+</resources>

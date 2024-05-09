@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/remove_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="14dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/trash"
+                app:layout_constraintEnd_toEndOf="@+id/plus_btn"
+                app:layout_constraintStart_toStartOf="@+id/minus_btn"
+                app:layout_constraintTop_toBottomOf="@+id/cart_items_quantity" />
+
+            <ImageView
+                android:id="@+id/dish_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="14dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/wine1" />
+
+            <ImageButton
+                android:id="@+id/minus_btn"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_minus"
+                app:layout_constraintBottom_toBottomOf="@+id/cart_items_quantity"
+                app:layout_constraintEnd_toStartOf="@+id/cart_items_quantity"
+                app:layout_constraintTop_toTopOf="@+id/cart_items_quantity" />
+
+            <TextView
+                android:id="@+id/dish_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Momos"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/dish_image"
+                app:layout_constraintStart_toEndOf="@+id/dish_image"
+                app:layout_constraintTop_toTopOf="@+id/dish_image"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/dish_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="₹230"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/dish_name"
+                app:layout_constraintStart_toStartOf="@+id/dish_name"
+                app:layout_constraintTop_toBottomOf="@+id/dish_name" />
+
+            <TextView
+                android:id="@+id/cart_items_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@+id/dish_image"
+                app:layout_constraintStart_toEndOf="@+id/dish_price"
+                app:layout_constraintTop_toTopOf="@+id/dish_image"
+                app:layout_constraintVertical_bias="0.209" />
+
+            <ImageButton
+                android:id="@+id/plus_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon_plus"
+                app:layout_constraintBottom_toBottomOf="@+id/cart_items_quantity"
+                app:layout_constraintStart_toEndOf="@+id/cart_items_quantity"
+                app:layout_constraintTop_toTopOf="@+id/cart_items_quantity" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
