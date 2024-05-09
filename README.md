@@ -4,11 +4,11 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://picjj.com/images/2024/05/09/sHy4f.jpg" alt="project-screenshot" width="180" height="180/">
+<img src="https://picjj.com/images/2024/05/09/sHy4f.jpg" alt="project-screenshot" width="180" height="180"/>
 
-<img src="https://picjj.com/images/2024/05/09/sHffe.jpg" alt="project-screenshot" width="180" height="180/">
+<img src="https://picjj.com/images/2024/05/09/sHffe.jpg" alt="project-screenshot" width="180" height="180"/>
 
-<img src="https://picjj.com/images/2024/05/09/sHd0a.jpg" alt="project-screenshot" width="180" height="180/">
+<img src="https://picjj.com/images/2024/05/09/sHd0a.jpg" alt="project-screenshot" width="180" height="180"/>
 
 <img src="https://picjj.com/images/2024/05/09/sH2mA.jpg" alt="project-screenshot" width="180" height="180/">
 
